@@ -16,7 +16,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;700&family=Satisfy&display=swap"
     rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Noto Serif' rel='stylesheet'>
-  
+
 </head>
 
 <body>
@@ -28,7 +28,7 @@
 
     <label class="label-principal">
       <img src="global/icones/icone-busca.svg" alt="Ícone de busca.">
-      <input type="text" placeholder="buscar">
+      <input type="text" placeholder="buscar" id="busca">
     </label>
 
   </header>
@@ -75,11 +75,11 @@
     <!---------- Samia Cristina ---------->
     <section class="cartoes" id="samia-cristina">
 
-    
-      
+
+
       <div class="samia-cristina-conteudo-cabecalho">
         <img src="https://avatars.githubusercontent.com/u/109465188?v=4" class="samia-cristina-imagem-perfil">
-        
+
       </div>
       <p class="samia-cristina-titulo-cartao nome">Sâmia Cristina</p>
       <div class="samia-cristina-conteudo-principal">
@@ -102,11 +102,13 @@
       <div class="imagem-perfil-fernanda-santos">
         <img src="https://pbs.twimg.com/media/FayMUlIWQAA89iM?format=jpg" alt="Avatar" class="fer-santos-imagem-media">
       </div>
-      
-      
-      
-      <a href="https://github.com/santosfer" target="_blank" class="fonte-titulo-cartao-fer-santos"><img src="icones-github/icone-github-preto.svg" alt="Ícone GitHub." class="imagem-pequena icone-github-fer-santos">Fernanda Santos</a>
-      
+
+
+
+      <a href="https://github.com/santosfer" target="_blank" class="fonte-titulo-cartao-fer-santos nome"><img
+          src="icones-github/icone-github-preto.svg" alt="Ícone GitHub."
+          class="imagem-pequena icone-github-fer-santos">Fernanda Santos</a>
+
       <div class="container-texto-cartao-fer-santos">
         <p> Aluna no <em><strong>Empower Code for Women</strong></em>. Aprendendo: HTML, CSS e JavaScript. Buscando a
           cada dia me aprimorar e expandir meus conhecimentos.</p>
@@ -184,32 +186,40 @@
 
 
 
-  <!---------- Giovana Corrêa ---------->
-    
-  <section class="cartoes" id="giovana-correa">
-    <div class="giovana-correa-imagem">
-      <img src="https://avatars.githubusercontent.com/u/88171887?v=4" alt="Foto da Giovana" class="giovana-correa-imagem-perfil"></div>
+    <!---------- Giovana Corrêa ---------->
 
-    <div class="giovana-correa-conteudo">
-      <h1>Giovana Corrêa</h1>
-      <p>Desenvolvedora Front-End</p>
-      <p>HTML5 | CSS3 | JavaScript | React.js</p>
-    </div>
+    <section class="cartoes" id="giovana-correa">
+      <div class="giovana-correa-imagem">
+        <img src="https://avatars.githubusercontent.com/u/88171887?v=4" alt="Foto da Giovana"
+          class="giovana-correa-imagem-perfil">
+      </div>
 
-    <div class="giovana-correa-contato">
-      <div class="giovana-correa-icone">
-      <a href="mailto:kraftgiovana@gmail.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Ícone do Gmail da Giovana"></a></div>
-      <div class="giovana-correa-icone">
-      <a href="https://www.linkedin.com/in/giovanadgcorrea/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="Ícone do LinkedIn da Giovana"></a></div>
-      <div class="giovana-correa-icone">
-      <a href="https://github.com/giovanadgcorrea" target="_blank"><img src="icones-github/icone-github-gradiente.svg" alt="Ícone do GitHub da Giovana"></a></div>
-    </div>
-  </section>
+      <div class="giovana-correa-conteudo nome">
+        <h1>Giovana Corrêa</h1>
+        <p>Desenvolvedora Front-End</p>
+        <p>HTML5 | CSS3 | JavaScript | React.js</p>
+      </div>
+
+      <div class="giovana-correa-contato">
+        <div class="giovana-correa-icone">
+          <a href="mailto:kraftgiovana@gmail.com" target="_blank"><img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Ícone do Gmail da Giovana"></a>
+        </div>
+        <div class="giovana-correa-icone">
+          <a href="https://www.linkedin.com/in/giovanadgcorrea/" target="_blank"><img
+              src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="Ícone do LinkedIn da Giovana"></a>
+        </div>
+        <div class="giovana-correa-icone">
+          <a href="https://github.com/giovanadgcorrea" target="_blank"><img
+              src="icones-github/icone-github-gradiente.svg" alt="Ícone do GitHub da Giovana"></a>
+        </div>
+      </div>
+    </section>
 
     <!---------- Maria Camila ---------->
-    <section class="cartoes" id="maria-camila">
-      <!-- Seu HTML vai aqui -->
-    </section>
+    <!-- <section class="cartoes" id="maria-camila">
+      
+    </section> -->
 
     <!---------- Yasmin de Matos ---------->
     <section class="cartoes" id="yasmin-de-matos">
@@ -242,40 +252,65 @@
       </footer>
     </section>
 
+
     <!---------- Mirella Bagdadi ---------->
     <section class="cartoes" id="mirella-bagdadi">
-      <div id="mirella-header">
-        <p><a id="titulo-nome-link" href="https://github.com/lissmirella"> Mirella Bagdadi</a></p>
-        <img src="" alt="Imagem do Perfil">
+      <div class="mirella-bagdadi-foto">
+        <img
+          src="https://raw.githubusercontent.com/lissmirella/devboardzenvia/d70926c7a01bb8ba8fd2421680a87d9cb61eef96/imagens/perfil%20fundo%20lil%C3%A1s.svg"
+          alt="Imagem do Perfil, Mirella sorrindo." width="100" height="100">
       </div>
 
-      <div id="mirella-main">
-
+      <div class="mirella-bagdadi-conteudo nome">
+        <h1 >Mirella Bagdadi</h1>
+        <p>Desenvolvedora Back-End | <em>em formação</em></em></p>
+        <p>NODE.JS | JAVASCRIPT | HTML5 | CSS3 </p>
       </div>
-      <div class="mirella-footer">
+
+      <div class="mirella-bagdadi-contato">
+        <div class="mirella-bagdadi-icone">
+          <a href="https://www.linkedin.com/in/mirellabagdadi/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="Ícone do LinkedIn da Mirella"></a>
+        </div>
+
+        <div class="mirella-bagdadi-icone">
+          <a href="https://github.com/lissmirella" target="_blank"><img src="icones-github/icone-github-gradiente.svg"
+              alt="Ícone do GitHub da Mirella">
+          </a>
+        </div>
+
+        <div class="mirella-bagdadi-icone">
+          <a href="mailto:mirellabagdadi@gmail.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Ícone do Gmail da Mirella">
+          </a>
+        </div>
 
       </div>
     </section>
+
+
+
+
 
     <!---------- Victoria Correia ---------->
-    <section class="cartoes" id="victoria-correia">
-      <!-- Seu HTML vai aqui -->
-    </section>
+    <!-- <section class="cartoes" id="victoria-correia">
+      
+    </section> -->
 
     <!---------- Thialla Menezes ---------->
-    <section class="cartoes nome" id="thialla-menezes">
+    <section class="cartoes" id="thialla-menezes">
       <div>
-  <img src="https://avatars.githubusercontent.com/u/109250801?v=4" alt="foto de Thialla"
+        <img src="https://avatars.githubusercontent.com/u/109250801?v=4" alt="foto de Thialla"
           class="thialla-menezes-foto">
-  </div>
+      </div>
 
-      <div class="thialla-menezes-nome">
+      <div class="thialla-menezes-nome nome">
         <h1><u> Thialla Menezes </u></h1>
       </div>
 
       <main class="thialla-menezes-conteudo">
         <h2 class="thialla-sobrenome"><i>Desenvolvedora Front-End</i></h2>
-        <ul>          
+        <ul>
           <li> &#128218; Javascript | HTML | CSS | NodeJS </li>
           <li> &#10024; Em constante evolução </li>
           <li> &#127760; Acesse minhas redes sociais:</li>
@@ -303,7 +338,7 @@
     <!---------- Izabella Bueno ---------->
     <section class="cartoes" id="izabella-bueno">
       <!-- Seu HTML vai aqui -->
-      <div id=izabella-bueno-info>
+      <div class="nome" id=izabella-bueno-info>
         <div id=izabella-bueno-background>
           <img
             src="https://scontent.fopo3-2.fna.fbcdn.net/v/t39.30808-6/294864567_8309278299112915_6665300620309208652_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=YbgET4IdlGoAX8lp7Wp&_nc_ht=scontent.fopo3-2.fna&oh=00_AT9X_BPHliveqFbQ-Ul32U8rvyzxlykETjWAnOT4JBNOTw&oe=6349E774"
@@ -327,13 +362,13 @@
     </section>
 
     <!---------- Bruna Pereira ---------->
-    <section class="cartoes" id="bruna-pereira">
-      <!-- Seu HTML vai aqui -->
-    </section>
+    <!-- <section class="cartoes" id="bruna-pereira">
+      
+    </section> -->
 
     <!---------- Taissa Lima ---------->
     <section class="cartoes" id="taissa-lima">
-      <h1><a href="https://github.com/taissasli" class="fonte-titulo-cartao">Taissa Lima</a></h1>
+      <h1 class="nome"><a href="https://github.com/taissasli" class="fonte-titulo-cartao">Taissa Lima</a></h1>
 
       <div class="taissa-main">
         <div class="taissa-nome-link">
@@ -359,14 +394,31 @@
 
     <!---------- Priscilla Ramos ---------->
     <section class="cartoes" id="priscilla-ramos">
+<div id=priscilla-ramos-info>
+        <div id=priscilla-ramos-background>
+          <img src="https://cdn-icons-png.flaticon.com/512/630/630426.png" alt="Ícone de Robô" class="imagem-pequena">
+        </div> 
+        <img src="https://img.freepik.com/vetores-premium/ilustracao-da-menina-robo-rosa-bonito-dos-desenhos-animados-isolada-no-branco_214720-895.jpg?w=740" alt="Imagem de robô" class="imagem-media">
+      </div>
 
+      <a href="http://www.linkedin.com/in/priscaramos" target="_blank" class="fonte-titulo-cartao nome">PRISCILLA RAMOS</a>
 
-    </section>
+      <div class="container-texto-cartoes">
+        <p class="fonte-paragrafo-cartao">✍️ UX Writer na <a href="http://www.caixa.gov.br>" target="_blank" class="fonte-link-cartao">CAIXA</a></p>
+        <p class="fonte-paragrafo-cartao">🤖 Apaixonada por chatbots</p>
+        <p class="fonte-paragrafo-cartao">🧱 Dev em construção</p>
+      </div>
+
+      <div id="priscilla-ramos-rodape">
+        <p id="priscilla-ramos-frase-rodape">Eu sou uma humana com inteligência nada artificial!</p> 
+      </div>
+
+    </section> 
 
     <!---------- Renaive ---------->
-    <section class="cartoes nome" id="renaive">
-      <!-- Seu HTML vai aqui -->
-    </section>
+    <!-- <section class="cartoes nome" id="renaive">
+      
+    </section> -->
 
     <!---------- Ju Facundes ---------->
     <section class="cartoes" id="ju-facundes">
@@ -376,7 +428,7 @@
         <img src="https://avatars.githubusercontent.com/u/88420232?v=4" class="julyana-facundes-imagem-perfil">
       </div>
 
-      <div class="julyana-facundes-titulo-cartao">Julyana Facundes</div>
+      <div class="julyana-facundes-titulo-cartao nome">Julyana Facundes</div>
 
       <div class="julyana-facundes-conteudo-principal">Aluna da Empower Code for Women (Alura/Zenvia)
       </div>
@@ -404,7 +456,7 @@
           class="imagem-cristina" <h1>
         </h1>
       </div>
-      <div>
+      <div class="nome">
         <h2 class="maria_cristina_h2"><strong>Maria Cristina</strong></h2><br>
         <h3 class="maria_cristina_dev"> Desenvolvedora em Formação</h3><br>
         <p class="maria_cristina-p"> 👩🏾‍🎓Estudante de Tech</p>
@@ -413,19 +465,19 @@
         <p class="maria_cristina-p"> 💾 JavaScript</p>
       </div>
       <div class="maria-cristina-icones texto-centralizado">
-        <a 
-        href="https://github.com/Mcristsilva" target="_blank">
-          <img  width="20" height="20"  src="icones-github/icone-github-preto.svg" alt="logotipo Github">       
+        <a href="https://github.com/Mcristsilva" target="_blank">
+          <img width="20" height="20" src="icones-github/icone-github-preto.svg" alt="logotipo Github">
         </a>
-        <a href="https://www.linkedin.com/in/maria-cristina-16368520/" target="_blank">  
-        <img width="20" height="20" src="https://cdn-icons-png.flaticon.com/512/49/49408.png" alt="logotipo LinkedIn"></a> 
-  </div>
+        <a href="https://www.linkedin.com/in/maria-cristina-16368520/" target="_blank">
+          <img width="20" height="20" src="https://cdn-icons-png.flaticon.com/512/49/49408.png"
+            alt="logotipo LinkedIn"></a>
+      </div>
     </section>
 
     <!---------- Clara Borges ---------->
-    <section class="cartoes" id="clara-borges">
-      <!-- Seu HTML vai aqui -->
-    </section>
+   <!--  <section class="cartoes" id="clara-borges">
+      
+    </section> -->
 
     <!---------- Esther Lourenço ---------->
     <section id="esther-lourenco" class="cartoes">
@@ -434,7 +486,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
 
-      <div class="esther-background">
+      <div class="esther-background nome">
 
         <div class="esther-rect"></div>
         <div>
@@ -471,111 +523,124 @@
 
     <!---------- Talita Cavalcanti  ---------->
     <section class="cartoes" id="talita-cavalcanti">
-    
-      <div class="talita-header">
+
+      <div class="talita-header nome">
         <h2>Parabéns !</h2>
-        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828851.png" alt="icone-fechar" class="talita-fechar-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828851.png" alt="icone-fechar"
+          class="talita-fechar-card">
       </div>
-      
+
       <div class="talita-principal">
-        
+
         <img src="https://cdn-icons-png.flaticon.com/512/458/458594.png" alt="icone-fechar" class="talita-icone-body">
         <h1>É o visitante no. 999.999</h1>
         <h1>Parabéns, você GANHOU 01 SANDY!!</h1>
         <div class="talita-avatar">
-          <img src="https://avatars.githubusercontent.com/u/102559911?v=4" alt="avatar-talita" class="imagem-grande">           </div>
+          <img src="https://avatars.githubusercontent.com/u/102559911?v=4" alt="avatar-talita" class="imagem-grande">
+        </div>
       </div>
-      
+
       <div class="talita-footer">
         <h3>claim reward: </h3>
-        <a href="https://github.com/talitacgs"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="Ícone GitHub." class="talita-github"></a>
-        <a href="https://www.linkedin.com/in/talitacavalcantigs/"><img src="https://cdn-icons-png.flaticon.com/512/49/49408.png" alt="Logo LinkedIn" class="talita-linkedin"></a>
+        <a href="https://github.com/talitacgs"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png"
+            alt="Ícone GitHub." class="talita-github"></a>
+        <a href="https://www.linkedin.com/in/talitacavalcantigs/"><img
+            src="https://cdn-icons-png.flaticon.com/512/49/49408.png" alt="Logo LinkedIn" class="talita-linkedin"></a>
       </div>
-      
+
     </section>
 
-    
-    <!---------- Bruna Vasconcelos ---------->
-  <section class="cartoes" id="bruna-vasconcelos">
 
-    <div class="bruna-vasconcelos-cabecalho">
-      <img src="https://avatars.githubusercontent.com/u/115852700?v=4" class="bruna-vasconcelos-imagem-perfil">
+    <!---------- Bruna Vasconcelos ---------->
+    <section class="cartoes" id="bruna-vasconcelos">
+
+      <div class="bruna-vasconcelos-cabecalho nome">
+        <img src="https://avatars.githubusercontent.com/u/115852700?v=4" class="bruna-vasconcelos-imagem-perfil">
         <h1 class="bruna-vasconcelos-titulo-cartao">Bruna Vasconcelos</h1>
-    </div>
-    
-    <div class="bruna-vasconcelos-conteudo-principal">
+      </div>
+
+      <div class="bruna-vasconcelos-conteudo-principal">
         <p>Aluna do Empower Code for Women (Alura/Zenvia)</p>
         <p>Desenvolvedora Front-End em construção</p>
         <p>HTML | CSS | Javascript</p>
-    </div>
-    
-    <div id="bruna-vasconcelos-icones">
-      <a href="https://github.com/bruunavasconcelos" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="logotipo Github" class="bruna-vasconcelos-github">
-      </a>
-      <a href="https://www.linkedin.com/in/bruna-sinadino/" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/49/49408.png" alt="logotipo LinkedIn"
+      </div>
+
+      <div id="bruna-vasconcelos-icones">
+        <a href="https://github.com/bruunavasconcelos" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="logotipo Github"
+            class="bruna-vasconcelos-github">
+        </a>
+        <a href="https://www.linkedin.com/in/bruna-sinadino/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/49/49408.png" alt="logotipo LinkedIn"
             class="bruna-vasconcelos-linkedin">
-      </a>
-   </div>
- </section>
-    
+        </a>
+      </div>
+    </section>
+
 
     <!---------- Giovanna Maia ---------->
     <section class="cartoes" id="giovanna-maia">
 
       <div class="giovanna-maia-foto-perfil">
-          <img src="https://lh3.googleusercontent.com/pw/AL9nZEUz9bQ8kH62SfczgjuM96Mh9NfgeS3zA4ziAIy9Tn3YtUnE4kxONXdxrNjGzs8vZKbWyFWFHFhuaXczK_-9PdcWMnGM41VSDLqZE8NBu5ZbyDA2X1MnZ731XVBsSQUNNVE5S7vOzaPb0-cQQMAl4vRDnQ=s969-no?authuser=0" alt="Foto de perfil da Giovanna Maia" class="giovanna-maia-foto">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEUz9bQ8kH62SfczgjuM96Mh9NfgeS3zA4ziAIy9Tn3YtUnE4kxONXdxrNjGzs8vZKbWyFWFHFhuaXczK_-9PdcWMnGM41VSDLqZE8NBu5ZbyDA2X1MnZ731XVBsSQUNNVE5S7vOzaPb0-cQQMAl4vRDnQ=s969-no?authuser=0"
+          alt="Foto de perfil da Giovanna Maia" class="giovanna-maia-foto">
       </div>
-  
-      <div class="giovanna-maia-resumo">
-          <h1 class="giovanna-maia-hover-underline-animation">Giovanna Maia</h1>
-          <p class="giovanna-maia-paragrafo">Mestranda em História Social — USP</p>
-          <p class="giovanna-maia-paragrafo">Aluna do Zenvia Empower Code for Women</p>
-          <p class="giovanna-maia-paragrafo"><strong>Python | HTML5 | CSS3 | JavaScript | NodeJS</strong></p>
+
+      <div class="giovanna-maia-resumo nome">
+        <h1 class="giovanna-maia-hover-underline-animation">Giovanna Maia</h1>
+        <p class="giovanna-maia-paragrafo">Mestranda em História Social — USP</p>
+        <p class="giovanna-maia-paragrafo">Aluna do Zenvia Empower Code for Women</p>
+        <p class="giovanna-maia-paragrafo"><strong>Python | HTML5 | CSS3 | JavaScript | NodeJS</strong></p>
       </div>
-  
+
       <div class="giovanna-maia-contato">
-          <a href="mailto:giovanna.maia.almeida@gmail.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/725/725643.png" alt="Ícone do e-mail"></a>
-          <a href="https://www.linkedin.com/in/giovanna-maia-almeida" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" alt="Ícone do LinkedIn"></a>
-          <a href="https://github.com/giovanna-maia" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="Ícone do GitHub"></a>
+        <a href="mailto:giovanna.maia.almeida@gmail.com" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/725/725643.png" alt="Ícone do e-mail"></a>
+        <a href="https://www.linkedin.com/in/giovanna-maia-almeida" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" alt="Ícone do LinkedIn"></a>
+        <a href="https://github.com/giovanna-maia" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="Ícone do GitHub"></a>
       </div>
-    </div>
+      </div>
     </section>
 
     <!---------- Luiza Bandeira  ---------->
     <section class="cartoes" id="luiza-bandeira">
-      <h1 class="nome-profile">Luiza Bandeira</h1>
+      <h1 class="nome-profile nome">Luiza Bandeira</h1>
       <div class="luiza-profile-sub">
         <h2> Front-end, UI e UX design </h2>
       </div>
       </div><img src="https://avatars.githubusercontent.com/u/87381369?v=4" class="luiza-avatar">
-  </div>
-      <div class="luiza-conteudo">
-        <ul>      
-      <li>🎓 Gastronomia e Análise & Desenvolvimento de Sistemas(Em andamento).</li>
-      <li>📚 Aluna do Empower Code for Woman da Zenvia.</li>
-      <li>🧡 Gatos, cultura geek, games.</li>
-    </ul>
       </div>
-      
+      <div class="luiza-conteudo">
+        <ul>
+          <li>🎓 Gastronomia e Análise & Desenvolvimento de Sistemas(Em andamento).</li>
+          <li>📚 Aluna do Empower Code for Woman da Zenvia.</li>
+          <li>🧡 Gatos, cultura geek, games.</li>
+        </ul>
+      </div>
+
     </section>
 
     <!---------- Gisele Reis ---------->
     <section class="cartoes" id="gisele-reis">
-      
-      <h1 class="gisele-reis-nome">Gisele Reis</h1>
+
+      <h1 class="gisele-reis-nome nome">Gisele Reis</h1>
 
       <div class="gisele-reis-retangulo">
-          <div class="gisele-reis-perfil">
-            <img class="gisele-reis-foto" src="https://cdn.picrew.me/shareImg/org/202210/188948_jEmOmRIs.png" >
-          </div>
+        <div class="gisele-reis-perfil">
+          <img class="gisele-reis-foto" src="https://cdn.picrew.me/shareImg/org/202210/188948_jEmOmRIs.png">
+        </div>
       </div>
 
       <div class="gisele-reis-contato">
-        <a href="https://github.com/gisele-reis" target="_blank"><img class="gisele-reis-git-hub" src="icones-github/icone-github-preto.svg" alt="Logo Github" title="GitHub - Gisele Reis">
+        <a href="https://github.com/gisele-reis" target="_blank"><img class="gisele-reis-git-hub"
+            src="icones-github/icone-github-preto.svg" alt="Logo Github" title="GitHub - Gisele Reis">
         </a>
-        <a href="https://www.linkedin.com/in/gisele-reis-140312204/" target="_blank"><img class="gisele-reis-linkedin" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="Logo Linkedin" title="Linkedin - Gisele Reis">
+        <a href="https://www.linkedin.com/in/gisele-reis-140312204/" target="_blank"><img class="gisele-reis-linkedin"
+            src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="Logo Linkedin"
+            title="Linkedin - Gisele Reis">
         </a>
       </div>
 
@@ -619,6 +684,8 @@
     <img src="global/logos/logo-include.png" alt="Logo Alura Include">
   </footer>
 
+
+  <script src="app.js"></script>
 </body>
 
 </html>
